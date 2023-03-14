@@ -2,8 +2,8 @@ Belgium = 'Belgium,10445852,Brussels,737966,Europe,1830,Euro,Catholicism,Dutch,F
 
 # 3a line of hyphens same length as belgium string
 
-aa = len(Belgium)
-print('\n', '-' * aa)
+a = len(Belgium)
+print('\n', '-' * a)
 
 # 3b string with the comma separators replaced by colons ':'
 
