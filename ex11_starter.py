@@ -14,3 +14,14 @@ print('\n', b)
 
 c = int(Belgium[8:16]) + int(Belgium[26:32])
 print('\n', c)
+
+# answer version 2
+fields = Belgium.split(",")
+print(fields)
+d = int(fields[1])
+e = int(fields[3])
+print(d+e)
+
+
+answer = f"the result is:{d+e}"
+print(answer)
